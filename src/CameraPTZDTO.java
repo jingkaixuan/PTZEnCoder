@@ -1,11 +1,11 @@
 
 public class CameraPTZDTO {
-	private String vcnNumber = null;
+	private String cameraNumber = null;
 	private String ptzCommand = null;
 	private String speed = null;
 	private String multiple = null;
-	public String getVcnNumber() {
-		return vcnNumber;
+	public String getCameraNumber() {
+		return cameraNumber;
 	}
 	public String getPtzCommand() {
 		return ptzCommand;
@@ -17,7 +17,7 @@ public class CameraPTZDTO {
 		return multiple;
 	}
 	public void setVcnNumber(String vcnNumber) {
-		this.vcnNumber = vcnNumber;
+		this.cameraNumber = vcnNumber;
 	}
 	public void setPtzCommand(String ptzCommand) {
 		this.ptzCommand = ptzCommand;
